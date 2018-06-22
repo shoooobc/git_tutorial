@@ -5,10 +5,10 @@
     <title>html</title>
 </head>
 <body>
-<?php $hour = date('H');?>
-<?php if(5<=$hour && $hour<10): ?>
+<?php $hour = date('H'); ?>
+<?php if (5 <= $hour && $hour < 10): ?>
     <p>おはよう</p>
-<?php elseif(10<=$hour && $hour<18): ?>
+<?php elseif (10 <= $hour && $hour < 18): ?>
     <p>こんにちわ</p>
 <?php else: ?>
     <p>こんばんわ</p>
